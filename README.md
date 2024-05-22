@@ -1,4 +1,4 @@
-# Practica-2B
+# Practica-2
 ## Part B: Interrupció per Timer 
 ### Codi complet
 ```cpp
