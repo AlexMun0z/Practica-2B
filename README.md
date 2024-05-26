@@ -79,7 +79,7 @@ void setup() {
 }
 ```
 S'estableix la configuració inicial del programa:
-- Serial.begin(115200): Inicialitza la comunicació sèrie en 115200 baudis.
+- Serial.begin(115200): Inicialitza la comunicació sèrie en 115200 bauds.
 - timer: Configura el temporitzador 0 amb un prescaler de 80 (cada tick del temporitzador correspon a  1 ms) i en mode de increment (true).
 - timerattachInterrupt: Adjunta la rutina d'interrupció onTimer al temporitzador.
 - timerAlarmWrite: Configura el temporitzador per generar una interrupció cada 1,000,000 ticks (1 segon) i reinicia el temporitzador automàticament.
